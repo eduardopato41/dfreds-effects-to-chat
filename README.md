@@ -1,10 +1,10 @@
 <div align="center">
   <img src="https://i.imgur.com/gOZy3Jf.png" width="200" height="200"/>
 </div>
-<h1 align="center">DFreds Module Template TS</h1>
+<h1 align="center">DFreds Effects to Chat</h1>
 
 <h4 align="center">
-  <a href="https://foundryvtt.com/packages/dfreds-module-template-ts">Install</a>
+  <a href="https://foundryvtt.com/packages/dfreds-effects-to-chat">Install</a>
   ·
   <a href="https://discord.gg/Wq8AEV9bWb">Discord</a>
   ·
@@ -12,16 +12,16 @@
 </h4>
 
 <p align="center">
-    <a href="https://github.com/DFreds/dfreds-module-template-ts/pulse"><img src="https://img.shields.io/github/last-commit/DFreds/dfreds-module-template-ts?style=for-the-badge&logo=github&color=7dc4e4&logoColor=D9E0EE&labelColor=302D41"></a>
-    <a href="https://github.com/DFreds/dfreds-module-template-ts/releases/latest"><img src="https://img.shields.io/github/v/release/DFreds/dfreds-module-template-ts?style=for-the-badge&logo=gitbook&color=8bd5ca&logoColor=D9E0EE&labelColor=302D41"></a>
-    <a href="https://github.com/DFreds/dfreds-module-template-ts/stargazers"><img src="https://img.shields.io/github/stars/DFreds/dfreds-module-template-ts?style=for-the-badge&logo=apachespark&color=eed49f&logoColor=D9E0EE&labelColor=302D41"></a>
+    <a href="https://github.com/DFreds/dfreds-effects-to-chat/pulse"><img src="https://img.shields.io/github/last-commit/DFreds/dfreds-effects-to-chat?style=for-the-badge&logo=github&color=7dc4e4&logoColor=D9E0EE&labelColor=302D41"></a>
+    <a href="https://github.com/DFreds/dfreds-effects-to-chat/releases/latest"><img src="https://img.shields.io/github/v/release/DFreds/dfreds-effects-to-chat?style=for-the-badge&logo=gitbook&color=8bd5ca&logoColor=D9E0EE&labelColor=302D41"></a>
+    <a href="https://github.com/DFreds/dfreds-effects-to-chat/stargazers"><img src="https://img.shields.io/github/stars/DFreds/dfreds-effects-to-chat?style=for-the-badge&logo=apachespark&color=eed49f&logoColor=D9E0EE&labelColor=302D41"></a>
     <br>
     <br>
-    <img src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/DFreds/dfreds-module-template-ts/main/static/module.json&label=Foundry%20Version&query=$.compatibility.verified&colorB=fe6a1f&style=for-the-badge&logo=foundryvirtualtabletop">
-    <a href="https://forge-vtt.com/bazaar#package=dfreds-module-template-ts"><img src="https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https://forge-vtt.com/api/bazaar/package/dfreds-module-template-ts&colorB=68a74f&style=for-the-badge&logo=condaforge"></a>
+    <img src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/DFreds/dfreds-effects-to-chat/main/static/module.json&label=Foundry%20Version&query=$.compatibility.verified&colorB=fe6a1f&style=for-the-badge&logo=foundryvirtualtabletop">
+    <a href="https://forge-vtt.com/bazaar#package=dfreds-effects-to-chat"><img src="https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https://forge-vtt.com/api/bazaar/package/dfreds-effects-to-chat&colorB=68a74f&style=for-the-badge&logo=condaforge"></a>
     <br>
-    <img src="https://img.shields.io/github/downloads/DFreds/dfreds-module-template-ts/latest/dfreds-module-template-ts.zip?color=2b82fc&label=LATEST%20DOWNLOADS&style=for-the-badge">
-    <img src="https://img.shields.io/github/downloads/DFreds/dfreds-module-template-ts/total?color=2b82fc&label=TOTAL%20DOWNLOADS&style=for-the-badge">
+    <img src="https://img.shields.io/github/downloads/DFreds/dfreds-effects-to-chat/latest/dfreds-effects-to-chat.zip?color=2b82fc&label=LATEST%20DOWNLOADS&style=for-the-badge">
+    <img src="https://img.shields.io/github/downloads/DFreds/dfreds-effects-to-chat/total?color=2b82fc&label=TOTAL%20DOWNLOADS&style=for-the-badge">
     <br>
     <br>
     <a href="https://www.patreon.com/dfreds"><img src="https://img.shields.io/badge/-Patreon-%23f96854?style=for-the-badge&logo=patreon"></a>
@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-    <b>DFreds Module Template TS</b> is a FoundryVTT module template that uses Typescript and Vite for development.
+    <b>DFreds Effects to Chat</b> is a FoundryVTT module template that uses Typescript and Vite for development.
 </p>
 
 ## Setup
@@ -51,7 +51,7 @@
 - Run `npm ci`
   - Installs all dependencies according to the `package-lock.json`
 - Run `npm run rename-module`
-  - Replaces all occurrences of `dfreds-module-template-ts` and `DFreds Module Template TS` in the project with your desired module identifier and name
+  - Replaces all occurrences of `dfreds-effects-to-chat` and `DFreds Effects to Chat` in the project with your desired module identifier and name
 - Run `npm run update-types`
   - Copies all pf2e types to the `/types` folder using the pf2e path set in `foundryconfig.json`
 - Run `npm run lint:fix`
